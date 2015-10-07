@@ -3,7 +3,7 @@ module.exports =
     @toolBar?.removeItems()
 
   consumeToolBar: (toolBar) ->
-    @toolBar = toolBar 'tool-bar-almighty'
+    @toolBar = toolBar 'tool-bar-besser'
 
     @toolBar.addButton
         icon: 'document-text'
@@ -45,6 +45,21 @@ module.exports =
 
     @toolBar.addSpacer()
 
+    @toolBar.addButton
+        'iconset': 'ion'
+        'icon': 'pound'
+        'tooltip': 'Line Comments'
+        'callback': 'editor:toggle-line-comments'
+
+    if atom.packages.loadedPackages['block-comment']
+        @toolBar.addButton
+            'iconset': 'ion'
+            'icon': 'quote'
+            'tooltip': 'Block Comment'
+            'callback': 'block-comment:toggle'
+
+    @toolBar.addSpacer()
+
     if atom.packages.loadedPackages['merge-conflicts']
         @toolBar.addButton
             'icon': 'code-fork'
@@ -78,16 +93,11 @@ module.exports =
         'tooltip': 'Reload Window'
         'iconset': 'ion'
 
-    if atom.packages.loadedPackages['term2']
+    if atom.packages.loadedPackages['term3']
         @toolBar.addButton
             'icon': 'terminal'
-            'callback': 'term2:open-split-down'
-            'tooltip': 'Term2 Split Down'
-
-    @toolBar.addButton
-        'icon': 'bug'
-        'callback': 'window:toggle-dev-tools'
-        'tooltip': 'Toggle Developer Tools'
+            'callback': 'term3:open-split-down'
+            'tooltip': 'Term3 Split Down'
 
     @toolBar.addButton
         'icon': 'gear-a'
