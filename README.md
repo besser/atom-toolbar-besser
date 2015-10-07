@@ -43,7 +43,7 @@ apm install tool-bar
 Then you install the `tool-bar-almighty` package:
 
 ```bash
-apm install tool-bar-almighty
+apm install tool-bar-besser
 ```
 
 ## License
