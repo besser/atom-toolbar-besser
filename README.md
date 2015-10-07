@@ -1,8 +1,12 @@
-# Toolbar Almighty - a tool-bar plugin
+# Personal Atom Tool Bar package
+
+My personal tool bar using [tool-bar](https://atom.io/packages/tool-bar) package for [Atom](https://atom.io).
+
+Forked from [varemenos/atom-toolbar-almighty](https://github.com/varemenos/atom-toolbar-almighty).
 
 ## Description
 
-An atom-tool-bar plugin that adds many commonly used actions in the tool-bar.
+An atom-tool-bar plugin that adds many commonly used actions in the tool-bar to my personal use.
 
 ![screenshot](https://cdn.rawgit.com/varemenos/atom-toolbar-almighty/master/screenshot.png)
 
