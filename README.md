@@ -8,7 +8,7 @@ Forked from [varemenos/atom-toolbar-almighty](https://github.com/varemenos/atom-
 
 An atom-tool-bar plugin that adds many commonly used actions in the tool-bar to my personal use.
 
-![screenshot](https://cdn.rawgit.com/varemenos/atom-toolbar-almighty/master/screenshot.png "tool-bar-besser")
+![screenshot](https://cdn.rawgit.com/besser/atom-toolbar-besser/master/screenshot.png "tool-bar-besser")
 
 [From left to right]
 
